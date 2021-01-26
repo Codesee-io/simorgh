@@ -4,6 +4,7 @@ var plugins = [
   '@babel/plugin-syntax-dynamic-import', // allows `await import()` syntax
   '@babel/plugin-transform-runtime',
   '@loadable/babel-plugin',
+  '@codesee/instrument',
 ];
 
 // allows dynamic `import()` in Node tests.
