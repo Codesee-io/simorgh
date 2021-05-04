@@ -164,6 +164,8 @@
     "@bbc/apache2-license-checker": "1.1.4",
     "@bbc/psammead-storybook-helpers": "9.0.14",
     "@bbc/psammead-test-helpers": "6.0.4",
+    "@codesee/babel-plugin-instrument": "^0.26.0",
+    "@codesee/tracker": "^0.26.0",
     "@emotion/babel-plugin": "11.3.0",
     "@emotion/jest": "11.3.0",
     "@loadable/babel-plugin": "5.13.2",
