@@ -22,6 +22,10 @@ if (process.env.NODE_ENV === 'production') {
   ]);
 }
 
+if (process.env.NODE_ENV === 'development') {
+  plugins.push(['@codesee/instrument', { hosted: true }]);
+}
+
 module.exports = {
   presets: [
     [
